@@ -1,6 +1,6 @@
 {
   "name": "watchmen-plugin-twilio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Notifications via Twilio (SMS) for Watchmen",
   "main": "index.js",
   "repository": {
