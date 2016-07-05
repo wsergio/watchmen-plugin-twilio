@@ -1,0 +1,49 @@
+{
+  "name": "watchmen-plugin-twilio",
+  "version": "0.1.0",
+  "description": "Notifications via Twilio (SMS) for Watchmen",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsergio/watchmen-plugin-twilio.git"
+  },
+  "author": {
+    "name": "WSergio",
+    "email": "sergiu@disruptive.academy",
+    "url": "http://disruptive.academy"
+  },
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "glob": "^6.0.1",
+    "handlebars": "^4.0.5",
+    "twilio": "^2.7.0"
+  },
+  "gitHead": "90d1fe084f093c057ba13e4a88a83a001ea6851a",
+  "bugs": {
+    "url": "https://github.com/wsergio/watchmen-plugin-twilio/issues"
+  },
+  "homepage": "https://github.com/wsergio/watchmen-plugin-twilio#readme",
+  "_id": "watchmen-plugin-twilio@0.2.0",
+  "scripts": {},
+  "_shasum": "d068381819d43e1457ddc39b478b615f7674c6ae",
+  "_from": "watchmen-plugin-twilio@",
+  "_npmVersion": "3.3.9",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "WSergio",
+    "email": "sergiu@disruptive.academy"
+  },
+  "dist": {
+    "shasum": "d068381819d43e1457ddc39b478b615f7674c6ae",
+    "tarball": "http://registry.npmjs.org/watchmen-plugin-twilio/-/watchmen-plugin-twilio-0.1.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "WSergio",
+      "email": "sergiu@disruptive.academy"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/watchmen-plugin-twilio/-/watchmen-plugin-twilio-0.1.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
