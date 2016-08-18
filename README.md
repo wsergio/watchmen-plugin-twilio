@@ -10,6 +10,19 @@ Plugin for Watchmen to send notifications to SMS via Twilio
 
 `npm install watchmen-plugin-twilio`
 
+(Temporary solution)
+
+Edit file `webserver/views/service-edit.html` and append after line 99 the following:
+```
+<div class="form-group">
+    <label for="service-alertToPhoneNumbers" class="col-sm-2 control-label">Alert to phone numbers</label>
+    <div class="col-sm-6">
+        <input type="text" ng-model="service.alertPhoneNumbers" type="checkbox" class="form-control" id="service-alertToPhoneNumbers" placeholder="+40758638441">
+    </div>
+    <div class="descr col-sm-4">List of phone numbers to alert to</div>
+</div>
+```
+
 ## Configuration
 
 Add your Twilio account via environment variables:
